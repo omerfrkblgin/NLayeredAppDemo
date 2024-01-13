@@ -7,10 +7,8 @@ using System.Threading.Tasks;
 
 namespace Northwind.Business.Abstract
 {
-    public interface IProductService
+    public interface ICategoryService
     {
-        List<Product> GetAll();
-        List<Product> GetProductsByCategory(int categoryId);
-        List<Product> GetProductsByProductName(string productName);
+        List<Category> GetAll();
     }
 }
